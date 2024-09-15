@@ -183,30 +183,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card_type_film {
-    position: relative;
     background-image: url('/images/card-lot-01.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .card_type_book {
-    position: relative;
     background-image: url('/images/card-lot-02.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .card_type_picture {
-    position: relative;
     background-image: url('/images/card-lot-03.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .card__title {
@@ -215,6 +207,7 @@
     text-transform: uppercase;
     text-decoration: underline;
     text-underline-offset: 3px;
+    text-decoration-skip-ink: none;
     text-decoration-thickness: 1px;
     z-index: 2;
 }
